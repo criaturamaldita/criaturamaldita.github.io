@@ -1,13 +1,13 @@
 .color-de-fondo {
-    background-color: #eddddd86}
+    background-color: #00000086}
 
 
 #index-fondo {
     background-image: url('https://www.thediaryofanomad.com/wp-content/uploads/2020/05/featured-post-uzbekistan-itinerary.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: center top;
+    background-attachment: absolute;
 }
 
 @font-face {
@@ -70,9 +70,9 @@
         width: 100%;
         text-align: right;
         background: #111;
-        height: 100px;
+        height: 36%;
         padding-top: 0px;
-        padding-bottom: 31.5%;
+        padding-bottom: 0%;
         color: #fff;
 }
 
@@ -142,6 +142,15 @@
     line-height: 0.3rem;
 }
 
+#UDGVirtual {
+    size-adjust: 27%;
+    width: 30%;
+    position: relative;
+    left: -50%;
+    top: 2%;
+    transform: translate(50%, -2%);
+    }
+
 .socials{
     align-items: center;
     justify-content: center;
@@ -168,8 +177,8 @@
 .referencias {
     background-color: transparent;
     text-align: center;
-    font-size: 11px;
-    font-family: 'Times New Roman';
+    font-size: 10px;
+    font-family: 'Arial';
     color: white;
 }
     
@@ -394,11 +403,3 @@
     margin-left:15%;
     margin-right:15%;
     }
-
-
-
-
-
-
-
-
